@@ -1,6 +1,6 @@
-variable "key_vault_access_policys" {
+variable "key_vault_access_policies" {
   description = <<EOT
-Map of key_vault_access_policys, attributes below
+Map of key_vault_access_policies, attributes below
 Required:
     - key_vault_id
     - object_id

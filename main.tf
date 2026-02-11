@@ -1,5 +1,5 @@
-resource "azurerm_key_vault_access_policy" "key_vault_access_policys" {
-  for_each = var.key_vault_access_policys
+resource "azurerm_key_vault_access_policy" "key_vault_access_policies" {
+  for_each = var.key_vault_access_policies
 
   key_vault_id            = each.value.key_vault_id
   object_id               = each.value.object_id
